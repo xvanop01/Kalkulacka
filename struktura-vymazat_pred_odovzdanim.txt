@@ -1,0 +1,19 @@
+mockup/
+  *.png|jpg|svg|pdf
+plan/
+profiling/
+  vystup.*
+  zprava.txt|pdf
+src/
+  zdrojový kód a testy
+  Makefile
+  Doxyfile
+  zdrojový kód pro profiling
+debugging.png|jpg|pdf|txt
+dokumentace.pdf
+screenshot.png|jpg
+skutecnost.txt
+hodnoceni.txt
+README.md|txt
+.gitignore
+.editorconfig
