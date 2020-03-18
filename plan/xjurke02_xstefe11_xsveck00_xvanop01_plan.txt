@@ -1,0 +1,30 @@
+*** Plán vypracovania projektu pre IVS ***
+Produkt:       Kalkulačka
+Riešitelia:
+        Jurkechová Adriana      xjurke02
+        Štefeková Nina          xstefe11
+        Švecková Sabína         xsveck00
+        Vaňo Peter              xvanop01
+
+------    Úlohy    -----
+Termín:          Zodpovedý:      Úloha:
+   27.03.2020   |    xjurke02   | Matematické funkcie základné
+   27.03.2020   |    xvanop01   | Matematické funkcie pokročilé
+   20.03.2020   |    xvanop01   | Testy matematickej knižnice
+   10.04.2020   |    xstefe11   | GUI
+   16.04.2020   |    xjurke02   | Dokumentácia pre užívateľa
+   10.04.2020   |    xstefe11   | Nápoveda
+   16.04.2020   |    xsveck00   | Inštalovanie / odinštalovanie
+   10.04.2020   |    xsveck00   | Manuálne inštalovanie / odinštalovanie (zo súborov) + makefile
+   03.04.2020   |    xvanop01   | Debugging matematickej knihovne
+   16.04.2020   |    -všetci-   | Mockup (možné budúce rozšírenie)
+   10.04.2020   |    xvanop01   | Profiling
+
+-----  Komunikácia  -----
+Komunikácia bude prebiehať prostredníctvom vytvorenej skupiny na facebooku.
+Keď sa dohodne niečo dôležité, pošle sa to aj na maily, aby sa to nestratilo v histórii.
+Stav úloh sa kontroluje pomocou tabuľky na Google Disku.
+
+-----   Repozitár   -----
+Repozitár pre projekt sa nachádza na GitHube.
+Prístup pre vyučujúcich / cvičiacich je cez konto "ivskontrola" ( ivs.kontrola@gmail.com ).
