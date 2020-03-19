@@ -4,19 +4,19 @@ using System.Text;
 
 namespace DanaProfessional
 {
-    class OperationsProfessional
+    public class OperationsProfessional
     {
-        public double Exp(double a, int b) 
+        public double Exp(double a, int b) // a^b
         {
             return
         }
 
-        public double Sqrt(double a, double b)
+        public double Rt(double a, int b) // a^(1/b); eps = 10^-10
         {
             return
         }
 
-        public double Abs(double a)
+        public double Abs(double a) // |a|
         {
             return
         }

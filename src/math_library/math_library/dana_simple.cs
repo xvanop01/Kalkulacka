@@ -4,27 +4,27 @@ namespace DanaSimple
 {
     public class OperationsSimple
     {
-        public double Plus(double a, double b)
+        public double Plus(double a, double b) // a + b
         {
             return
         }
 
-        public double Minus(double a, double b)
+        public double Minus(double a, double b) // a - b
         {
             return
         }
 
-        public double Multi(double a, double b)
+        public double Multi(double a, double b) // a * b
         {
             return
         }
 
-        public double Div(double a, double b)
+        public double Div(double a, double b) // a / b
         {
             return
         }
         
-        public int Factorial(int a) // existuje aj faktorial floatu, chceme aj to riesit?
+        public long Factorial(int a) // a! // existuje aj faktorial floatu, chceme aj to riesit?
         {
             return
         }

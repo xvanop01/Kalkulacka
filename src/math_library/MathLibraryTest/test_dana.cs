@@ -1,5 +1,6 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using DanaSimple;
+using DanaProfessional;
 
 namespace MathLibraryTest
 {
@@ -67,6 +68,46 @@ namespace MathLibraryTest
             Assert.AreEqual(3628800, dana.Factorial(10));
             Assert.AreEqual(double.NaN, dana.Factorial(-7));
             Assert.AreEqual(6402373705728000, dana.Factorial(18));
+        }
+
+        [TestMethod]
+        public void TestExp()
+        {
+            OperationsProfessional dana = new OperationsProfessional();
+            Assert.AreEqual(1, dana.Exp(1, 45));
+            Assert.AreEqual(1, dana.Exp(-59, 0));
+            Assert.AreEqual(0.01, dana.Exp(10, -2));
+            Assert.AreEqual(double.NaN, dana.Exp(0, 0));
+            Assert.AreEqual(double.NaN, dana.Exp(0, -6));
+            Assert.AreEqual(4, dana.Exp(-2, 2));
+            Assert.AreEqual(-8, dana.Exp(-2, 3));
+            Assert.AreEqual(0, dana.Exp(0, 987));
+        }
+
+        [TestMethod]
+        public void TestRt()
+        {
+            OperationsProfessional dana = new OperationsProfessional();
+            Assert.IsTrue(dana.Rt(2, 2) > 1.4142135623);
+            Assert.IsTrue(dana.Rt(2, 2) < 1.4142135624);
+            Assert.AreEqual(3, dana.Rt(27, 3));
+            Assert.AreEqual(-4, dana.Rt(-64, 3));
+            Assert.AreEqual(double.NaN, dana.Rt(-9, 4));
+            Assert.AreEqual(double.NaN, dana.Rt(96, 0));
+            Assert.AreEqual(1, dana.Rt(1, 67));
+            Assert.AreEqual(0, dana.Rt(0, 3));
+            Assert.AreEqual(double.NaN, dana.Rt(0, -9));
+            Assert.AreEqual(0.25, dana.Rt(4, -1));
+        }
+
+        [TestMethod]
+        public void TestAbs()
+        {
+            OperationsProfessional dana = new OperationsProfessional();
+            Assert.AreEqual(0, dana.Abs(0));
+            Assert.AreEqual(789, dana.Abs(789));
+            Assert.AreEqual(357, dana.Abs(-357));
+            Assert.AreEqual(1.424242, dana.Abs(-1.424242));
         }
     }
 }
