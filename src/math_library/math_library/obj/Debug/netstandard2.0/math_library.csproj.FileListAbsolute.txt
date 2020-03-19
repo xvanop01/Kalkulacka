@@ -1,0 +1,8 @@
+C:\Users\User\Documents\GitHub\Kalkulacka\src\math_library\math_library\bin\Debug\netstandard2.0\math_library.deps.json
+C:\Users\User\Documents\GitHub\Kalkulacka\src\math_library\math_library\bin\Debug\netstandard2.0\math_library.dll
+C:\Users\User\Documents\GitHub\Kalkulacka\src\math_library\math_library\bin\Debug\netstandard2.0\math_library.pdb
+C:\Users\User\Documents\GitHub\Kalkulacka\src\math_library\math_library\obj\Debug\netstandard2.0\math_library.csprojAssemblyReference.cache
+C:\Users\User\Documents\GitHub\Kalkulacka\src\math_library\math_library\obj\Debug\netstandard2.0\math_library.AssemblyInfoInputs.cache
+C:\Users\User\Documents\GitHub\Kalkulacka\src\math_library\math_library\obj\Debug\netstandard2.0\math_library.AssemblyInfo.cs
+C:\Users\User\Documents\GitHub\Kalkulacka\src\math_library\math_library\obj\Debug\netstandard2.0\math_library.dll
+C:\Users\User\Documents\GitHub\Kalkulacka\src\math_library\math_library\obj\Debug\netstandard2.0\math_library.pdb
