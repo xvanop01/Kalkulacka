@@ -69,7 +69,11 @@ namespace MathLibraryTest
             Assert.AreEqual(double.NaN, dana.Factorial(-7));
             Assert.AreEqual(6402373705728000, dana.Factorial(18));
         }
+    }
 
+    [TestClass]
+    public class DanaProfessional
+    {
         [TestMethod]
         public void TestExp()
         {
@@ -88,8 +92,8 @@ namespace MathLibraryTest
         public void TestRt()
         {
             OperationsProfessional dana = new OperationsProfessional();
-            Assert.IsTrue(dana.Rt(2, 2) > 1.4142135623);
-            Assert.IsTrue(dana.Rt(2, 2) < 1.4142135624);
+            Assert.IsTrue(dana.Rt(2, 2) > 1.41421356237309);
+            Assert.IsTrue(dana.Rt(2, 2) < 1.41421356237310);
             Assert.AreEqual(3, dana.Rt(27, 3));
             Assert.AreEqual(-4, dana.Rt(-64, 3));
             Assert.AreEqual(double.NaN, dana.Rt(-9, 4));
