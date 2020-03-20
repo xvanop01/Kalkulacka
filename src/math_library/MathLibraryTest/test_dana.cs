@@ -55,7 +55,7 @@ namespace MathLibraryTest
             Assert.AreEqual(-8, dana.Div(2, -0.25));
             Assert.AreEqual(double.NaN, dana.Div(7, 0.0)); // rovna sa NaN, nie INF pre jednoduchost
             Assert.AreEqual(1, dana.Div(-456.654, -456.654));
-            Assert.AreEqual(-75, dana.Div(-100, 0.75));
+            Assert.AreEqual(-80, dana.Div(-100, 1.25));
             Assert.AreEqual(double.NaN, dana.Div(double.NaN, 456));
         }
 
