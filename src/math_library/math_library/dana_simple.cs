@@ -2,31 +2,31 @@
 
 namespace DanaSimple
 {
-    public class OperationsSimple
+    public static class OperationsSimple
     {
-        public double Plus(double a, double b) // a + b
+        public static double Plus(double a, double b) // a + b
         {
             return a+b;
         }
 
-        public double Minus(double a, double b) // a - b
+        public static double Minus(double a, double b) // a - b
         {
             return a-b;
         }
 
-        public double Multi(double a, double b) // a * b
+        public static double Multi(double a, double b) // a * b
         {
             return a*b;
         }
 
-        public double Div(double a, double b) // a / b
+        public static double Div(double a, double b) // a / b
         {
             if (b == 0)
                 return double.NaN;
             return a / b;
         }
         
-        public double Factorial(int a) // a! // existuje aj faktorial floatu, chceme aj to riesit?
+        public static double Factorial(int a) // a! // existuje aj faktorial floatu, chceme aj to riesit?
         {
             if (a == 0 || a == 1)
                 return 1;
