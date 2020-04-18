@@ -1,0 +1,448 @@
+
+########## PROFILER'S START ########## 10 numbers
+[ms] Time in the OperationsSimple.Plus:                       9.447
+     Total calls of OperationsSimple.Plus:                    30
+[ms] Average time per one call of OperationsSimple.Plus:      0.3149
+#####
+[ms] Time in the OperationsSimple.Minus:                      0.8046
+     Total calls of OperationsSimple.Minus:                   2
+[ms] Average time per one call of OperationsSimple.Minus:     0.4023
+#####
+[ms] Time in the OperationsSimple.Multi:                      0.8793
+     Total calls of OperationsSimple.Multi:                   2
+[ms] Average time per one call of OperationsSimple.Multi:     0.4396
+#####
+[ms] Time in the OperationsSimple.Div:                        0.8153
+     Total calls of OperationsSimple.Div:                     2
+[ms] Average time per one call of OperationsSimple.Div:       0.4076
+#####
+[ms] Time in the OperationsSimple.Factorial:                  0
+     Total calls of OperationsSimple.Factorial:               0
+#####
+[ms] Time in the OperationsProfesional.Exp:                   3.6637
+     Total calls of OperationsProfesional.Exp:                11
+[ms] Average time per one call of OperationsProfesional.Exp:  0.3331
+#####
+[ms] Time in the OperationsProfesional.Rt:                    0.7987
+     Total calls of OperationsProfesional.Rt:                 1
+[ms] Average time per one call of OperationsProfesional.Rt:   0.7987
+#####
+[ms] Time in the OperationsProfesional.Abs:                   0
+     Total calls of OperationsProfesional.Abs:                0
+##########  PROFILER'S END  ##########
+
+########## PROFILER'S START ########## 10 numbers
+[ms] Time in the OperationsSimple.Plus:                       9.1665
+     Total calls of OperationsSimple.Plus:                    30
+[ms] Average time per one call of OperationsSimple.Plus:      0.3056
+#####
+[ms] Time in the OperationsSimple.Minus:                      0.7924
+     Total calls of OperationsSimple.Minus:                   2
+[ms] Average time per one call of OperationsSimple.Minus:     0.3962
+#####
+[ms] Time in the OperationsSimple.Multi:                      0.8683
+     Total calls of OperationsSimple.Multi:                   2
+[ms] Average time per one call of OperationsSimple.Multi:     0.4342
+#####
+[ms] Time in the OperationsSimple.Div:                        0.8033
+     Total calls of OperationsSimple.Div:                     2
+[ms] Average time per one call of OperationsSimple.Div:       0.4016
+#####
+[ms] Time in the OperationsSimple.Factorial:                  0
+     Total calls of OperationsSimple.Factorial:               0
+#####
+[ms] Time in the OperationsProfesional.Exp:                   3.561
+     Total calls of OperationsProfesional.Exp:                11
+[ms] Average time per one call of OperationsProfesional.Exp:  0.3237
+#####
+[ms] Time in the OperationsProfesional.Rt:                    0.789
+     Total calls of OperationsProfesional.Rt:                 1
+[ms] Average time per one call of OperationsProfesional.Rt:   0.789
+#####
+[ms] Time in the OperationsProfesional.Abs:                   0
+     Total calls of OperationsProfesional.Abs:                0
+##########  PROFILER'S END  ##########
+
+########## PROFILER'S START ########## 10 numbers
+[ms] Time in the OperationsSimple.Plus:                       9.5501
+     Total calls of OperationsSimple.Plus:                    30
+[ms] Average time per one call of OperationsSimple.Plus:      0.3183
+#####
+[ms] Time in the OperationsSimple.Minus:                      0.8183
+     Total calls of OperationsSimple.Minus:                   2
+[ms] Average time per one call of OperationsSimple.Minus:     0.4092
+#####
+[ms] Time in the OperationsSimple.Multi:                      0.8983
+     Total calls of OperationsSimple.Multi:                   2
+[ms] Average time per one call of OperationsSimple.Multi:     0.4492
+#####
+[ms] Time in the OperationsSimple.Div:                        0.8326
+     Total calls of OperationsSimple.Div:                     2
+[ms] Average time per one call of OperationsSimple.Div:       0.4163
+#####
+[ms] Time in the OperationsSimple.Factorial:                  0
+     Total calls of OperationsSimple.Factorial:               0
+#####
+[ms] Time in the OperationsProfesional.Exp:                   3.7076
+     Total calls of OperationsProfesional.Exp:                11
+[ms] Average time per one call of OperationsProfesional.Exp:  0.3371
+#####
+[ms] Time in the OperationsProfesional.Rt:                    0.7812
+     Total calls of OperationsProfesional.Rt:                 1
+[ms] Average time per one call of OperationsProfesional.Rt:   0.7812
+#####
+[ms] Time in the OperationsProfesional.Abs:                   0
+     Total calls of OperationsProfesional.Abs:                0
+##########  PROFILER'S END  ##########
+
+########## PROFILER'S START ########## 100 numbers
+[ms] Time in the OperationsSimple.Plus:                       84.5695
+     Total calls of OperationsSimple.Plus:                    300
+[ms] Average time per one call of OperationsSimple.Plus:      0.2819
+#####
+[ms] Time in the OperationsSimple.Minus:                      0.7525
+     Total calls of OperationsSimple.Minus:                   2
+[ms] Average time per one call of OperationsSimple.Minus:     0.3762
+#####
+[ms] Time in the OperationsSimple.Multi:                      0.8505
+     Total calls of OperationsSimple.Multi:                   2
+[ms] Average time per one call of OperationsSimple.Multi:     0.4252
+#####
+[ms] Time in the OperationsSimple.Div:                        0.7813
+     Total calls of OperationsSimple.Div:                     2
+[ms] Average time per one call of OperationsSimple.Div:       0.3906
+#####
+[ms] Time in the OperationsSimple.Factorial:                  0
+     Total calls of OperationsSimple.Factorial:               0
+#####
+[ms] Time in the OperationsProfesional.Exp:                   28.6696
+     Total calls of OperationsProfesional.Exp:                101
+[ms] Average time per one call of OperationsProfesional.Exp:  0.2839
+#####
+[ms] Time in the OperationsProfesional.Rt:                    0.7433
+     Total calls of OperationsProfesional.Rt:                 1
+[ms] Average time per one call of OperationsProfesional.Rt:   0.7433
+#####
+[ms] Time in the OperationsProfesional.Abs:                   0
+     Total calls of OperationsProfesional.Abs:                0
+##########  PROFILER'S END  ##########
+
+########## PROFILER'S START ########## 100 numbers
+[ms] Time in the OperationsSimple.Plus:                       90.1516
+     Total calls of OperationsSimple.Plus:                    300
+[ms] Average time per one call of OperationsSimple.Plus:      0.3005
+#####
+[ms] Time in the OperationsSimple.Minus:                      0.7716
+     Total calls of OperationsSimple.Minus:                   2
+[ms] Average time per one call of OperationsSimple.Minus:     0.3858
+#####
+[ms] Time in the OperationsSimple.Multi:                      0.8457
+     Total calls of OperationsSimple.Multi:                   2
+[ms] Average time per one call of OperationsSimple.Multi:     0.4228
+#####
+[ms] Time in the OperationsSimple.Div:                        0.7828
+     Total calls of OperationsSimple.Div:                     2
+[ms] Average time per one call of OperationsSimple.Div:       0.3914
+#####
+[ms] Time in the OperationsSimple.Factorial:                  0
+     Total calls of OperationsSimple.Factorial:               0
+#####
+[ms] Time in the OperationsProfesional.Exp:                   30.5375
+     Total calls of OperationsProfesional.Exp:                101
+[ms] Average time per one call of OperationsProfesional.Exp:  0.3024
+#####
+[ms] Time in the OperationsProfesional.Rt:                    0.8057
+     Total calls of OperationsProfesional.Rt:                 1
+[ms] Average time per one call of OperationsProfesional.Rt:   0.8057
+#####
+[ms] Time in the OperationsProfesional.Abs:                   0
+     Total calls of OperationsProfesional.Abs:                0
+##########  PROFILER'S END  ##########
+
+########## PROFILER'S START ########## 100 numbers
+[ms] Time in the OperationsSimple.Plus:                       84.3949
+     Total calls of OperationsSimple.Plus:                    300
+[ms] Average time per one call of OperationsSimple.Plus:      0.2813
+#####
+[ms] Time in the OperationsSimple.Minus:                      0.7291
+     Total calls of OperationsSimple.Minus:                   2
+[ms] Average time per one call of OperationsSimple.Minus:     0.3646
+#####
+[ms] Time in the OperationsSimple.Multi:                      0.8025
+     Total calls of OperationsSimple.Multi:                   2
+[ms] Average time per one call of OperationsSimple.Multi:     0.4012
+#####
+[ms] Time in the OperationsSimple.Div:                        0.7394
+     Total calls of OperationsSimple.Div:                     2
+[ms] Average time per one call of OperationsSimple.Div:       0.3697
+#####
+[ms] Time in the OperationsSimple.Factorial:                  0
+     Total calls of OperationsSimple.Factorial:               0
+#####
+[ms] Time in the OperationsProfesional.Exp:                   28.5904
+     Total calls of OperationsProfesional.Exp:                101
+[ms] Average time per one call of OperationsProfesional.Exp:  0.2831
+#####
+[ms] Time in the OperationsProfesional.Rt:                    0.7232
+     Total calls of OperationsProfesional.Rt:                 1
+[ms] Average time per one call of OperationsProfesional.Rt:   0.7232
+#####
+[ms] Time in the OperationsProfesional.Abs:                   0
+     Total calls of OperationsProfesional.Abs:                0
+##########  PROFILER'S END  ##########
+
+########## PROFILER'S START ########## 1 000 numbers
+[ms] Time in the OperationsSimple.Plus:                       1133.1002
+     Total calls of OperationsSimple.Plus:                    3000
+[ms] Average time per one call of OperationsSimple.Plus:      0.3777
+#####
+[ms] Time in the OperationsSimple.Minus:                      1.0537
+     Total calls of OperationsSimple.Minus:                   2
+[ms] Average time per one call of OperationsSimple.Minus:     0.5268
+#####
+[ms] Time in the OperationsSimple.Multi:                      1.1268
+     Total calls of OperationsSimple.Multi:                   2
+[ms] Average time per one call of OperationsSimple.Multi:     0.5634
+#####
+[ms] Time in the OperationsSimple.Div:                        1.0635
+     Total calls of OperationsSimple.Div:                     2
+[ms] Average time per one call of OperationsSimple.Div:       0.5318
+#####
+[ms] Time in the OperationsSimple.Factorial:                  0
+     Total calls of OperationsSimple.Factorial:               0
+#####
+[ms] Time in the OperationsProfesional.Exp:                   378.3018
+     Total calls of OperationsProfesional.Exp:                1001
+[ms] Average time per one call of OperationsProfesional.Exp:  0.3779
+#####
+[ms] Time in the OperationsProfesional.Rt:                    0.8851
+     Total calls of OperationsProfesional.Rt:                 1
+[ms] Average time per one call of OperationsProfesional.Rt:   0.8851
+#####
+[ms] Time in the OperationsProfesional.Abs:                   0
+     Total calls of OperationsProfesional.Abs:                0
+##########  PROFILER'S END  ##########
+
+########## PROFILER'S START ########## 1 000 numbers
+[ms] Time in the OperationsSimple.Plus:                       1069.1096
+     Total calls of OperationsSimple.Plus:                    3000
+[ms] Average time per one call of OperationsSimple.Plus:      0.3564
+#####
+[ms] Time in the OperationsSimple.Minus:                      1.024
+     Total calls of OperationsSimple.Minus:                   2
+[ms] Average time per one call of OperationsSimple.Minus:     0.512
+#####
+[ms] Time in the OperationsSimple.Multi:                      1.0983
+     Total calls of OperationsSimple.Multi:                   2
+[ms] Average time per one call of OperationsSimple.Multi:     0.5492
+#####
+[ms] Time in the OperationsSimple.Div:                        1.0348
+     Total calls of OperationsSimple.Div:                     2
+[ms] Average time per one call of OperationsSimple.Div:       0.5174
+#####
+[ms] Time in the OperationsSimple.Factorial:                  0
+     Total calls of OperationsSimple.Factorial:               0
+#####
+[ms] Time in the OperationsProfesional.Exp:                   356.9585
+     Total calls of OperationsProfesional.Exp:                1001
+[ms] Average time per one call of OperationsProfesional.Exp:  0.3566
+#####
+[ms] Time in the OperationsProfesional.Rt:                    0.8831
+     Total calls of OperationsProfesional.Rt:                 1
+[ms] Average time per one call of OperationsProfesional.Rt:   0.8831
+#####
+[ms] Time in the OperationsProfesional.Abs:                   0
+     Total calls of OperationsProfesional.Abs:                0
+##########  PROFILER'S END  ##########
+
+########## PROFILER'S START ########## 1 000 numbers
+[ms] Time in the OperationsSimple.Plus:                       1101.7319
+     Total calls of OperationsSimple.Plus:                    3000
+[ms] Average time per one call of OperationsSimple.Plus:      0.3672
+#####
+[ms] Time in the OperationsSimple.Minus:                      1.0316
+     Total calls of OperationsSimple.Minus:                   2
+[ms] Average time per one call of OperationsSimple.Minus:     0.5158
+#####
+[ms] Time in the OperationsSimple.Multi:                      1.1041
+     Total calls of OperationsSimple.Multi:                   2
+[ms] Average time per one call of OperationsSimple.Multi:     0.552
+#####
+[ms] Time in the OperationsSimple.Div:                        1.0416
+     Total calls of OperationsSimple.Div:                     2
+[ms] Average time per one call of OperationsSimple.Div:       0.5208
+#####
+[ms] Time in the OperationsSimple.Factorial:                  0
+     Total calls of OperationsSimple.Factorial:               0
+#####
+[ms] Time in the OperationsProfesional.Exp:                   367.8438
+     Total calls of OperationsProfesional.Exp:                1001
+[ms] Average time per one call of OperationsProfesional.Exp:  0.3675
+#####
+[ms] Time in the OperationsProfesional.Rt:                    0.8743
+     Total calls of OperationsProfesional.Rt:                 1
+[ms] Average time per one call of OperationsProfesional.Rt:   0.8743
+#####
+[ms] Time in the OperationsProfesional.Abs:                   0
+     Total calls of OperationsProfesional.Abs:                0
+##########  PROFILER'S END  ##########
+
+########## PROFILER'S START ########## 10 000 numbers
+[ms] Time in the OperationsSimple.Plus:                       32189.1408
+     Total calls of OperationsSimple.Plus:                    30000
+[ms] Average time per one call of OperationsSimple.Plus:      1.073
+#####
+[ms] Time in the OperationsSimple.Minus:                      3.8433
+     Total calls of OperationsSimple.Minus:                   2
+[ms] Average time per one call of OperationsSimple.Minus:     1.9216
+#####
+[ms] Time in the OperationsSimple.Multi:                      3.9229
+     Total calls of OperationsSimple.Multi:                   2
+[ms] Average time per one call of OperationsSimple.Multi:     1.9614
+#####
+[ms] Time in the OperationsSimple.Div:                        3.8583
+     Total calls of OperationsSimple.Div:                     2
+[ms] Average time per one call of OperationsSimple.Div:       1.9292
+#####
+[ms] Time in the OperationsSimple.Factorial:                  0
+     Total calls of OperationsSimple.Factorial:               0
+#####
+[ms] Time in the OperationsProfesional.Exp:                   10731.534
+     Total calls of OperationsProfesional.Exp:                10001
+[ms] Average time per one call of OperationsProfesional.Exp:  1.073
+#####
+[ms] Time in the OperationsProfesional.Rt:                    2.3122
+     Total calls of OperationsProfesional.Rt:                 1
+[ms] Average time per one call of OperationsProfesional.Rt:   2.3122
+#####
+[ms] Time in the OperationsProfesional.Abs:                   0
+     Total calls of OperationsProfesional.Abs:                0
+##########  PROFILER'S END  ##########
+
+########## PROFILER'S START ########## 1 000 000 numbers
+[ms] Time in the OperationsSimple.Plus:                       208369735.0308
+     Total calls of OperationsSimple.Plus:                    3000000
+[ms] Average time per one call of OperationsSimple.Plus:      69.4566
+#####
+[ms] Time in the OperationsSimple.Minus:                      265.9836
+     Total calls of OperationsSimple.Minus:                   2
+[ms] Average time per one call of OperationsSimple.Minus:     132.9918
+#####
+[ms] Time in the OperationsSimple.Multi:                      266.0632
+     Total calls of OperationsSimple.Multi:                   2
+[ms] Average time per one call of OperationsSimple.Multi:     133.0316
+#####
+[ms] Time in the OperationsSimple.Div:                        265.992
+     Total calls of OperationsSimple.Div:                     2
+[ms] Average time per one call of OperationsSimple.Div:       132.996
+#####
+[ms] Time in the OperationsSimple.Factorial:                  0
+     Total calls of OperationsSimple.Factorial:               0
+#####
+[ms] Time in the OperationsProfesional.Exp:                   69456694.8976
+     Total calls of OperationsProfesional.Exp:                1000001
+[ms] Average time per one call of OperationsProfesional.Exp:  69.4566
+#####
+[ms] Time in the OperationsProfesional.Rt:                    133.4068
+     Total calls of OperationsProfesional.Rt:                 1
+[ms] Average time per one call of OperationsProfesional.Rt:   133.4068
+#####
+[ms] Time in the OperationsProfesional.Abs:                   0
+     Total calls of OperationsProfesional.Abs:                0
+##########  PROFILER'S END  ##########
+
+########## PROFILER'S START ########## 1 000 000 numbers
+[ms] Time in the OperationsSimple.Plus:                       212347090.0518
+     Total calls of OperationsSimple.Plus:                    3000000
+[ms] Average time per one call of OperationsSimple.Plus:      70.7824
+#####
+[ms] Time in the OperationsSimple.Minus:                      270.6263
+     Total calls of OperationsSimple.Minus:                   2
+[ms] Average time per one call of OperationsSimple.Minus:     135.3132
+#####
+[ms] Time in the OperationsSimple.Multi:                      270.7297
+     Total calls of OperationsSimple.Multi:                   2
+[ms] Average time per one call of OperationsSimple.Multi:     135.3648
+#####
+[ms] Time in the OperationsSimple.Div:                        270.6582
+     Total calls of OperationsSimple.Div:                     2
+[ms] Average time per one call of OperationsSimple.Div:       135.3291
+#####
+[ms] Time in the OperationsSimple.Factorial:                  0
+     Total calls of OperationsSimple.Factorial:               0
+#####
+[ms] Time in the OperationsProfesional.Exp:                   70782481.3315
+     Total calls of OperationsProfesional.Exp:                1000001
+[ms] Average time per one call of OperationsProfesional.Exp:  70.7824
+#####
+[ms] Time in the OperationsProfesional.Rt:                    135.7348
+     Total calls of OperationsProfesional.Rt:                 1
+[ms] Average time per one call of OperationsProfesional.Rt:   135.7348
+#####
+[ms] Time in the OperationsProfesional.Abs:                   0
+     Total calls of OperationsProfesional.Abs:                0
+##########  PROFILER'S END  ##########
+
+########## PROFILER'S START ########## 1 000 000 numbers
+[ms] Time in the OperationsSimple.Plus:                       225384664.9177
+     Total calls of OperationsSimple.Plus:                    3000000
+[ms] Average time per one call of OperationsSimple.Plus:      75.1282
+#####
+[ms] Time in the OperationsSimple.Minus:                      277.5548
+     Total calls of OperationsSimple.Minus:                   2
+[ms] Average time per one call of OperationsSimple.Minus:     138.7774
+#####
+[ms] Time in the OperationsSimple.Multi:                      277.6287
+     Total calls of OperationsSimple.Multi:                   2
+[ms] Average time per one call of OperationsSimple.Multi:     138.8144
+#####
+[ms] Time in the OperationsSimple.Div:                        277.5657
+     Total calls of OperationsSimple.Div:                     2
+[ms] Average time per one call of OperationsSimple.Div:       138.7828
+#####
+[ms] Time in the OperationsSimple.Factorial:                  0
+     Total calls of OperationsSimple.Factorial:               0
+#####
+[ms] Time in the OperationsProfesional.Exp:                   75128341.8397
+     Total calls of OperationsProfesional.Exp:                1000001
+[ms] Average time per one call of OperationsProfesional.Exp:  75.1283
+#####
+[ms] Time in the OperationsProfesional.Rt:                    139.1676
+     Total calls of OperationsProfesional.Rt:                 1
+[ms] Average time per one call of OperationsProfesional.Rt:   139.1676
+#####
+[ms] Time in the OperationsProfesional.Abs:                   0
+     Total calls of OperationsProfesional.Abs:                0
+##########  PROFILER'S END  ##########
+
+########## PROFILER'S START ########## 1 000 000 000 numbers
+[ms] Time in the OperationsSimple.Plus:                       185356031073938.3
+     Total calls of OperationsSimple.Plus:                    -1294967296
+[ms] Average time per one call of OperationsSimple.Plus:      -143135.6851
+#####
+[ms] Time in the OperationsSimple.Minus:                      246853.0982
+     Total calls of OperationsSimple.Minus:                   2
+[ms] Average time per one call of OperationsSimple.Minus:     123426.5491
+#####
+[ms] Time in the OperationsSimple.Multi:                      246853.1965
+     Total calls of OperationsSimple.Multi:                   2
+[ms] Average time per one call of OperationsSimple.Multi:     123426.5982
+#####
+[ms] Time in the OperationsSimple.Div:                        246853.1272
+     Total calls of OperationsSimple.Div:                     2
+[ms] Average time per one call of OperationsSimple.Div:       123426.5636
+#####
+[ms] Time in the OperationsSimple.Factorial:                  0
+     Total calls of OperationsSimple.Factorial:               0
+#####
+[ms] Time in the OperationsProfesional.Exp:                   61785343799270.4
+     Total calls of OperationsProfesional.Exp:                1000000001
+[ms] Average time per one call of OperationsProfesional.Exp:  61785.3437
+#####
+[ms] Time in the OperationsProfesional.Rt:                    123426.9519
+     Total calls of OperationsProfesional.Rt:                 1
+[ms] Average time per one call of OperationsProfesional.Rt:   123426.9519
+#####
+[ms] Time in the OperationsProfesional.Abs:                   0
+     Total calls of OperationsProfesional.Abs:                0
+##########  PROFILER'S END  ##########
