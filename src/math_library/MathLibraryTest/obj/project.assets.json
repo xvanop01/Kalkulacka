@@ -6891,19 +6891,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Adriana Jurkechová\\.nuget\\packages\\": {}
+    "C:\\Users\\User\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Adriana Jurkechová\\source\\repos\\Kalkulacka\\src\\math_library\\MathLibraryTest\\MathLibraryTest.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Documents\\GitHub\\Kalkulacka\\src\\math_library\\MathLibraryTest\\MathLibraryTest.csproj",
       "projectName": "MathLibraryTest",
-      "projectPath": "C:\\Users\\Adriana Jurkechová\\source\\repos\\Kalkulacka\\src\\math_library\\MathLibraryTest\\MathLibraryTest.csproj",
-      "packagesPath": "C:\\Users\\Adriana Jurkechová\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Adriana Jurkechová\\source\\repos\\Kalkulacka\\src\\math_library\\MathLibraryTest\\obj\\",
+      "projectPath": "C:\\Users\\User\\Documents\\GitHub\\Kalkulacka\\src\\math_library\\MathLibraryTest\\MathLibraryTest.csproj",
+      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\User\\Documents\\GitHub\\Kalkulacka\\src\\math_library\\MathLibraryTest\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Adriana Jurkechová\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -6916,8 +6916,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\Adriana Jurkechová\\source\\repos\\Kalkulacka\\src\\math_library\\math_library\\math_library.csproj": {
-              "projectPath": "C:\\Users\\Adriana Jurkechová\\source\\repos\\Kalkulacka\\src\\math_library\\math_library\\math_library.csproj"
+            "C:\\Users\\User\\Documents\\GitHub\\Kalkulacka\\src\\math_library\\math_library\\math_library.csproj": {
+              "projectPath": "C:\\Users\\User\\Documents\\GitHub\\Kalkulacka\\src\\math_library\\math_library\\math_library.csproj"
             }
           }
         }
@@ -6963,7 +6963,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
       }
     }
   }

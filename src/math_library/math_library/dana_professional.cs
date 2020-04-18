@@ -4,9 +4,9 @@ using System.Text;
 
 namespace DanaProfessional
 {
-    public class OperationsProfessional
+    public static class OperationsProfessional
     {
-        public double Exp(double a, int b) // a^b
+        public static double Exp(double a, int b) // a^b
         {
             if (b <= 0 && a == 0)
             {
@@ -35,7 +35,7 @@ namespace DanaProfessional
             }
         }
 
-        public double Rt(double a, int b) // a^(1/b); na presnost 10^(-15)
+        public static double Rt(double a, int b) // a^(1/b); na presnost 10^(-15)
         {
             double abs_a = Abs(a);
             int abs_b = b;
@@ -93,7 +93,7 @@ namespace DanaProfessional
             return guess;
         }
 
-        public double Abs(double a) // |a|
+        public static double Abs(double a) // |a|
         {
             if (a < 0)
             {
