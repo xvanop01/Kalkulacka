@@ -55,29 +55,9 @@ namespace DanaProfessional
             {
                 return 1 / a;
             }
-            double max = abs_a;
-            double min = 0;
             double guess = abs_a;
-            double value = 10;
-            for (; max - min > 1; guess = min + (max - min) / 2)
-            {
-                value = Exp(guess, abs_b) - a;
-                if (value > 0)
-                {
-                    max = guess;
-                }
-                else
-                {
-                    if (value < 0)
-                    {
-                        min = guess;
-                    }
-                }
-            }
-            //guess = min;
             double check = 0;
-            //double minus = (Exp(guess, abs_b) - abs_a) / (abs_b * guess);
-            for (; guess - check > 1e-14 || check - guess > 1e-14; )//minus > 1e-14 || minus < -1e-14; minus = (Exp(guess, abs_b) - abs_a) / (abs_b * guess))
+            for (; guess - check > 1e-14 || check - guess > 1e-14; )
             {
                 check = guess;
                 guess = (1.0 / abs_b) * (((abs_b - 1) * check) + (abs_a / Exp(check, (abs_b - 1))));

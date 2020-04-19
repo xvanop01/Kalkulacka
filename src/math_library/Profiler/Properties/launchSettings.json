@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "Profiler": {
+      "commandName": "Executable",
+      "executablePath": "C:\\Users\\User\\Documents\\GitHub\\Kalkulacka\\src\\math_library\\Profiler\\bin\\Debug\\netcoreapp3.1\\Profiler.exe",
+      "commandLineArgs": "< 10_numbers.txt",
+      "workingDirectory": "C:\\Users\\User\\Documents\\GitHub\\Kalkulacka\\src\\math_library\\Profiler\\bin\\Debug\\netcoreapp3.1\\"
+    }
+  }
+}
