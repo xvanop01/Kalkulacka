@@ -246,7 +246,7 @@ namespace Profiler
             }
             work_suma.Deviation(counter);
             Console.WriteLine(work_suma.result);
-            //counter.GetStats(); // pre vystup z profileru odkomentujte
+            counter.GetStats(); // pre vystup z profileru odkomentujte
         }
     }
 }
