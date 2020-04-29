@@ -195,7 +195,7 @@ namespace Profiler
 
     //! Executable
     /*! Console app's class */
-    class Program
+    class Profiler
     {
 
         //! Main of console app
