@@ -1,7 +1,4 @@
 *.exe
 *.log
 **/.vs
-**/obj
 **/bin
-**/Properties
-*.dll
