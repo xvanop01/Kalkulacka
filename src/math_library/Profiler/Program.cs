@@ -5,26 +5,30 @@ using DanaSimple;
 
 namespace Profiler
 {
+    //! Profiler handler
+    /*! Contains variables to store profiler's stats */
     public class ProfilerCounters
     {
         public Stopwatch stopWatch = new Stopwatch();
-        public TimeSpan plus;
-        public TimeSpan minus;
-        public TimeSpan div;
-        public TimeSpan multi;
-        public TimeSpan factorial;
-        public TimeSpan exp;
-        public TimeSpan rt;
-        public TimeSpan abs;
-        public int cPlus;
-        public int cMinus;
-        public int cDiv;
-        public int cMulti;
-        public int cFactorial;
-        public int cExp;
-        public int cRt;
-        public int cAbs;
+        public TimeSpan plus;          /*!< Stores total time spent in OperationsSimple.Plus */
+        public TimeSpan minus;         /*!< Stores total time spent in OperationsSimple.Minus */
+        public TimeSpan div;           /*!< Stores total time spent in OperationsSimple.Div */
+        public TimeSpan multi;         /*!< Stores total time spent in OperationsSimple.Multi */
+        public TimeSpan factorial;     /*!< Stores total time spent in OperationsSimple.Factorial */
+        public TimeSpan exp;           /*!< Stores total time spent in OperationsSimple.Exp */
+        public TimeSpan rt;            /*!< Stores total time spent in OperationsSimple.Rt */
+        public TimeSpan abs;           /*!< Stores total time spent in OperationsSimple.Abs */
+        public int cPlus;              /*!< Stores how many times was OperationsSimple.Plus called */
+        public int cMinus;             /*!< Stores how many times was OperationsSimple.Minus called */
+        public int cDiv;               /*!< Stores how many times was OperationsSimple.Div called */
+        public int cMulti;             /*!< Stores how many times was OperationsSimple.Multi called */
+        public int cFactorial;         /*!< Stores how many times was OperationsSimple.Factorial called */
+        public int cExp;               /*!< Stores how many times was OperationsSimple.Exp called */
+        public int cRt;                /*!< Stores how many times was OperationsSimple.Rt called */
+        public int cAbs;               /*!< Stores how many times was OperationsSimple.Abs called */
 
+        //! Formated output
+        /*! Prints and counts statistics from profiler
         public void GetStats()
         {
             Console.WriteLine();
@@ -79,13 +83,18 @@ namespace Profiler
             Console.WriteLine("##########  PROFILER'S END  ##########");
         }
     }
+
+    //! Sum handler
+    /*! Contains methods and variables for counting Sum */
     public class Suma
     {
-        public double xi_sum;
-        public double xi_2sum;
-        public double counter;
-        public double result;
+        public double xi_sum;    /*!< Sum of x1 to xn */
+        public double xi_2sum;   /*!< Sum of x1^2 to xn^2 */
+        public double counter;   /*!< Counts number of xi (n) */
+        public double result;    /*!< Store result of deviation */
 
+	//! Constructor
+	/*! Set variables to zero */
         public Suma()
         {
             xi_sum = 0;
@@ -94,6 +103,10 @@ namespace Profiler
             result = 0;
         }
 
+        //! Deviation counter
+	/*! Counts deviation from stored values
+            \param profiler Profiler with stored values
+        */
         public void Deviation(ProfilerCounters profiler)
         {
             if (counter == 0 || counter == 1)
@@ -109,32 +122,32 @@ namespace Profiler
                 double under_sqrt;
 
                 profiler.stopWatch.Start();
-                c1 = OperationsSimple.Minus(counter, 1);
+                c1 = OperationsSimple.Minus(counter, 1); // c1 = n-1
                 profiler.stopWatch.Stop();
                 profiler.minus += profiler.stopWatch.Elapsed;
                 profiler.cMinus++;
 
                 profiler.stopWatch.Start();
-                first_part = OperationsSimple.Div(1, c1);
+                first_part = OperationsSimple.Div(1, c1); // first_part = 1/(n-1)
                 profiler.stopWatch.Stop();
                 profiler.div += profiler.stopWatch.Elapsed;
                 profiler.cDiv++;
 
                 // Console.WriteLine(first_part);
                 profiler.stopWatch.Start();
-                last_part = OperationsSimple.Div(xi_sum, counter);
+                last_part = OperationsSimple.Div(xi_sum, counter); // last_part = Sum(x)/n
                 profiler.stopWatch.Stop();
                 profiler.div += profiler.stopWatch.Elapsed;
                 profiler.cDiv++;
 
                 profiler.stopWatch.Start();
-                last_part = OperationsProfessional.Exp(last_part, 2);
+                last_part = OperationsProfessional.Exp(last_part, 2); // last_part = (Sum(x)/n)^2
                 profiler.stopWatch.Stop();
                 profiler.exp += profiler.stopWatch.Elapsed;
                 profiler.cExp++;
 
                 profiler.stopWatch.Start();
-                last_part = OperationsSimple.Multi(last_part, counter);
+                last_part = OperationsSimple.Multi(last_part, counter); // last_part = (Sum(x)/n)^2 / n
                 profiler.stopWatch.Stop();
                 profiler.multi += profiler.stopWatch.Elapsed;
                 profiler.cMulti++;
@@ -142,35 +155,43 @@ namespace Profiler
                 // Console.WriteLine(last_part);
                 // Console.WriteLine(xi_2sum);
                 profiler.stopWatch.Start();
-                xi2_xi = OperationsSimple.Minus(xi_2sum, last_part);
+                xi2_xi = OperationsSimple.Minus(xi_2sum, last_part); // xi2_xi = Sum(x^2) - (((Sum(x)/n)^2) / n)
                 profiler.stopWatch.Stop();
                 profiler.minus += profiler.stopWatch.Elapsed;
                 profiler.cMinus++;
 
                 profiler.stopWatch.Start();
-                under_sqrt = OperationsSimple.Multi(first_part, xi2_xi);
+                under_sqrt = OperationsSimple.Multi(first_part, xi2_xi); under_sqrt = (1/(n-1)) * (Sum(x^2) - (((Sum(x)/n)^2) / n))
                 profiler.stopWatch.Stop();
                 profiler.multi += profiler.stopWatch.Elapsed;
                 profiler.cMulti++;
 
                 // Console.WriteLine(under_sqrt);
                 profiler.stopWatch.Start();
-                result = OperationsProfessional.Rt(under_sqrt, 2);
+                result = OperationsProfessional.Rt(under_sqrt, 2); result = ((1/(n-1)) * (Sum(x^2) - (((Sum(x)/n)^2) / n)))^(1/2)
                 profiler.stopWatch.Stop();
                 profiler.rt += profiler.stopWatch.Elapsed;
                 profiler.cRt++;
             }
         }
     }
+
+    //! Executable
+    /*! Console app's class */
     class Program
     {
+
+        //! Main of console app
+        /*!
+            \param args Not used, program isn't supporting args
+        */
         static void Main(string[] args)
         {
             ProfilerCounters counter = new ProfilerCounters();
             Suma work_suma = new Suma();
-            string line;
-            string number = "";
-            double new_x;
+            string line; // loaded line
+            string number = ""; // number as a string
+            double new_x; // currectly handled x
             while (!String.IsNullOrEmpty(line = Console.ReadLine()))
             {
                 for (int i = 0; i < line.Length; i++)
@@ -245,8 +266,8 @@ namespace Profiler
                 number = "";
             }
             work_suma.Deviation(counter);
-            Console.WriteLine(work_suma.result);
-            counter.GetStats(); // pre vystup z profileru odkomentujte
+            Console.WriteLine(work_suma.result); // writes result of deviation
+            counter.GetStats(); // writes profiler's output
         }
     }
 }

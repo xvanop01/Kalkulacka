@@ -4,9 +4,11 @@ using DanaProfessional;
 
 namespace MathLibraryTest
 {
+    //! OperationsSimple tests
     [TestClass]
     public class DanaSimpleTest
     {
+        //! OperationsSimple.Plus tests
         [TestMethod]
         public void TestPlus()
         {
@@ -19,6 +21,7 @@ namespace MathLibraryTest
             //Assert.AreEqual(double.PositiveInfinity, dana.Plus(0, double.PositiveInfinity)); // ak sa INF nebude dat zadat, tak netreba (1/0=NaN)
         }
 
+        //! OperationsSimple.Minus tests
         [TestMethod]
         public void TestMinus()
         {
@@ -32,6 +35,7 @@ namespace MathLibraryTest
             //Assert.AreEqual(double.NegativeInfinity, dana.Minus(0, double.PositiveInfinity)); // ak sa INF nebude dat zadat, tak netreba (1/0=NaN)
         }
 
+        //! OperationsSimple.Multi tests
         [TestMethod]
         public void TestMulti()
         {
@@ -44,6 +48,7 @@ namespace MathLibraryTest
             //Assert.AreEqual(double.PositiveInfinity, dana.Multi(1, double.PositiveInfinity)); // ak sa INF nebude dat zadat, tak netreba (1/0=NaN)
         }
 
+        //! OperationsSimple.Div tests
         [TestMethod]
         public void TestDiv()
         {
@@ -55,6 +60,7 @@ namespace MathLibraryTest
             Assert.AreEqual(double.NaN, OperationsSimple.Div(double.NaN, 456));
         }
 
+        //! OperationsSimple.Factorial tests
         [TestMethod]
         public void TestFactorial()
         {
@@ -66,9 +72,11 @@ namespace MathLibraryTest
         }
     }
 
+    //! OperationsProfessional tests
     [TestClass]
     public class DanaProfessional
     {
+        //! OperationsProfessional.Exp tests
         [TestMethod]
         public void TestExp()
         {
@@ -82,6 +90,7 @@ namespace MathLibraryTest
             Assert.AreEqual(0, OperationsProfessional.Exp(0, 987));
         }
 
+        //! OperationsProfessional.Rt tests
         [TestMethod]
         public void TestRt()
         {
@@ -97,6 +106,7 @@ namespace MathLibraryTest
             Assert.AreEqual(0.25, OperationsProfessional.Rt(4, -1));
         }
 
+        //! OperationsProfessional.Abs tests
         [TestMethod]
         public void TestAbs()
         {
