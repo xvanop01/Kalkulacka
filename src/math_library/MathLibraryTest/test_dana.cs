@@ -1,3 +1,21 @@
+/**************************************************
+ * Project name: Calculator
+ * File: test_dana.cs
+ * Date: 19.3.2020
+ * Author: Peter Vaňo xvano01(at)fit.vutbr.cz
+ * 
+ * Brief: Tests for Math library
+ * 
+ ***************************************************/
+
+/*!
+  \file test_dana.cs
+
+  \brief Tests for Math library
+  \author Peter Vaňo (xvano01)
+*/
+
+
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using DanaSimple;
 using DanaProfessional;

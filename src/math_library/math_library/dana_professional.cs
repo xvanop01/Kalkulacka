@@ -1,11 +1,39 @@
-﻿using System;
+﻿/**************************************************
+ * Project name: Calculator
+ * File: dana_professional.cs
+ * Date: 19.3.2020
+ * Author: Peter Vaňo xvano01(at)fit.vutbr.cz
+ * 
+ * Brief: Extended Math library
+ * 
+ ***************************************************/
+
+/*!
+  \file dana_professional.cs
+
+  \brief Extended Math library 
+  \author Peter Vaňo (xvano01)
+*/
+
+
+using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace DanaProfessional
 {
+    //! Extended Math library class
+    /*!
+      Math library for operations Exponentiation, n-th root, Absolute Value
+    */
     public static class OperationsProfessional
     {
+        //! Exp for Exponentiation
+        /*!
+          \param a Base
+          \param b Exponent
+          \return Returns power
+        */
         public static double Exp(double a, int b) // a^b
         {
             if (b <= 0 && a == 0)
@@ -35,6 +63,12 @@ namespace DanaProfessional
             }
         }
 
+        //! Rt for n-th root
+        /*!
+          param a Radicand
+          param b Degree
+          return Returns root
+        */
         public static double Rt(double a, int b) // a^(1/b); na presnost 10^(-15)
         {
             double abs_a = Abs(a);
@@ -73,6 +107,11 @@ namespace DanaProfessional
             return guess;
         }
 
+        //! Abs for Absolute value
+        /*!
+          \param a Positive or negative number
+          \return Returns an ansolute value from parameter a
+        */
         public static double Abs(double a) // |a|
         {
             if (a < 0)
