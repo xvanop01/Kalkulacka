@@ -1,4 +1,12 @@
-﻿using System;
+﻿
+/*********************
+* IVS projekt2
+* 27.4.2020
+* team leader: xvanop1
+* xstefe11
+*********************/
+
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -14,15 +22,22 @@ namespace pokus
     {
         Double value = 0;
         String operation = ""; //no operator
-        bool number_pressed = false;
+        bool number_pressed = false;//number has not been pressed yet
         bool operation_pressed = false; //no operator had been pressed yet
 
-
+        /*
+         @brief intializes components of the form
+         */
         public Form1()
         {
             InitializeComponent();
         }
 
+
+
+        /*
+         @brief loads the form
+         */
         private void Form1_Load(object sender, EventArgs e)
         {
 
@@ -31,7 +46,11 @@ namespace pokus
 
        
 
-   
+        /**
+         @brief deletes everything and set result window to 0
+         @param sender
+         @param e
+         */
         private void buttonce_Click(object sender, EventArgs e)
         {
             result.Text = "0";
@@ -45,25 +64,44 @@ namespace pokus
 
         }
 
+
+
+        /**
+        
+            @brief prints out numbers in result.Text 
+           @param sender
+           @param e 
+             */
         private void button_Click(object sender, EventArgs e)
         {
             if (result.Text == "0" || operation_pressed == true)
                 result.Text = "";
             Button b = (Button)sender;
-            result.Text = result.Text + b.Text;       
-           
+            result.Text = result.Text + b.Text; 
+
         }
 
+
+        /**
+         * @brief deletes everything on the screen
+           @param sender
+           @param e 
+        */
         private void buttonc_click(object sender, EventArgs e)
         {
             result.Text = "0";
 
         }
 
-        private void button_abs_Click(object sender, EventArgs e)
+        /**
+         @brief gives absolute value of given number 
+         @param sender
+         @param e 
+             */
+        private void button_abs_Click(object sender, EventArgs e)//absolute value 
         {
-            if (!number_pressed)
-                result.Text = ("ERROR");
+            if (result.Text == "0")
+                result.Text = "ERROR";
             else
             {
                 value = DanaProfessional.OperationsProfessional.Abs(double.Parse(result.Text));
@@ -71,7 +109,11 @@ namespace pokus
             }
         }
 
-        private void button_fact(object sender, EventArgs e)
+        /**
+        @brief counts the factorial of given number
+        @note number has to be positive integer    
+             */
+        private void button_fact(object sender, EventArgs e) 
         {
             int Check = 0;
             bool Result = Int32.TryParse(result.Text, out Check);
@@ -84,13 +126,18 @@ namespace pokus
                 {result.Text= "ERROR";};
         }
 
+        /**
+            @brief Perfroms all the operations that use 2 numbers
+            @param sender
+            @param e
+        */
      private void equals_Click(object sender, EventArgs e)
         {
             if(operation_pressed)
             {
 
 
-                switch (operation)
+                switch (operation)//determing which opertion to perform
                 {
                     case "+":
                         result.Text = DanaSimple.OperationsSimple.Plus(value, double.Parse(result.Text)).ToString();
@@ -106,6 +153,9 @@ namespace pokus
                         result.Text = DanaSimple.OperationsSimple.Div(value, double.Parse(result.Text)).ToString();
                         break;
                     case "ʸ√x":
+                        if(value<0 || (value%2==0 && int.Parse(result.Text)<0)) 
+                            result.Text=("ERROR");
+                        else
                         result.Text = DanaProfessional.OperationsProfessional.Rt(value,int.Parse(result.Text)).ToString();
                         break;
                     case "xʸ":
@@ -119,8 +169,11 @@ namespace pokus
 
         }
 
-        
-
+        /**
+        @brief when operator  pressed parses the number pressed previously
+        @param sender
+        @param e   
+        */
         private void operator_pressed(object sender, EventArgs e)
         {
 
@@ -129,18 +182,6 @@ namespace pokus
             value = double.Parse(result.Text);
             operation_pressed = true;
             
-        }
-
-     
-
-        private void contextMenuStrip1_Opening(object sender, CancelEventArgs e)
-        {
-
-        }
-
-        private void toolStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
-        {
-
         }
     }
     }
