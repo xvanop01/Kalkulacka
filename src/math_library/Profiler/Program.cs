@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Diagnostics;
 using DanaProfessional;
 using DanaSimple;
@@ -28,7 +28,7 @@ namespace Profiler
         public int cAbs;               /*!< Stores how many times was OperationsSimple.Abs called */
 
         //! Formated output
-        /*! Prints and counts statistics from profiler
+        /*! Prints and counts statistics from profiler */
         public void GetStats()
         {
             Console.WriteLine();
@@ -93,8 +93,8 @@ namespace Profiler
         public double counter;   /*!< Counts number of xi (n) */
         public double result;    /*!< Store result of deviation */
 
-	//! Constructor
-	/*! Set variables to zero */
+	      //! Constructor
+	      /*! Set variables to zero */
         public Suma()
         {
             xi_sum = 0;
@@ -104,7 +104,7 @@ namespace Profiler
         }
 
         //! Deviation counter
-	/*! Counts deviation from stored values
+	      /*! Counts deviation from stored values
             \param profiler Profiler with stored values
         */
         public void Deviation(ProfilerCounters profiler)
@@ -161,14 +161,14 @@ namespace Profiler
                 profiler.cMinus++;
 
                 profiler.stopWatch.Start();
-                under_sqrt = OperationsSimple.Multi(first_part, xi2_xi); under_sqrt = (1/(n-1)) * (Sum(x^2) - (((Sum(x)/n)^2) / n))
+                under_sqrt = OperationsSimple.Multi(first_part, xi2_xi); // under_sqrt = (1/(n-1)) * (Sum(x^2) - (((Sum(x)/n)^2) / n))
                 profiler.stopWatch.Stop();
                 profiler.multi += profiler.stopWatch.Elapsed;
                 profiler.cMulti++;
 
                 // Console.WriteLine(under_sqrt);
                 profiler.stopWatch.Start();
-                result = OperationsProfessional.Rt(under_sqrt, 2); result = ((1/(n-1)) * (Sum(x^2) - (((Sum(x)/n)^2) / n)))^(1/2)
+                result = OperationsProfessional.Rt(under_sqrt, 2); // result = ((1/(n-1)) * (Sum(x^2) - (((Sum(x)/n)^2) / n)))^(1/2)
                 profiler.stopWatch.Stop();
                 profiler.rt += profiler.stopWatch.Elapsed;
                 profiler.cRt++;
