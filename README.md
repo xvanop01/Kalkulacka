@@ -13,3 +13,9 @@ Windows 64bit
 
 ### Licencia
 Produkt je distribuovaný pod licenciou GPLv1.
+
+### Spustenie z archivu
+make all
+make run
+
+### Historia na GitHube cez ivskontrola https://github.com/xvanop01/Kalkulacka
