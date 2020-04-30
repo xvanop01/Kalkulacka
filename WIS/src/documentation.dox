@@ -1,0 +1,30 @@
+/*! \mainpage Documentation for team school project.
+ 
+  \section intro_sec Introduction
+ 
+  Hello! 
+  
+  On this page you can see everything about our school project. Search in namespaces, classes or files to find more.  
+  
+ 
+  \section authors_sec Authors
+
+  xjurke02 Jurkechová Adriana
+
+  xstefe11 Štefeková Nina
+
+  xsveck00 Švecková Sabína
+
+  xvanop01 Vaňo Peter
+
+
+ 
+  \section school_sec Brno University of Technology FIT
+
+  We are from Faculty of Information Technology. For more information about our university visit:
+
+  <a href="https://www.fit.vut.cz/.en">Faculty of Information Technology BUT</a> 
+
+  <a href="https://www.vutbr.cz/en/">Brno University of Technology</a> 
+
+ */
