@@ -2,7 +2,7 @@
  * Project name: Calculator
  * File: Program.cs
  * Date: 18.4.2020
- * Author: Peter Vaňo xvano01(at)fit.vutbr.cz
+ * Author: Peter Vaňo xvanop01(at)fit.vutbr.cz
  * 
  * Brief: Profiler
  * 
@@ -12,7 +12,7 @@
   \file program.cs
 
   \brief Profiler for project Calculator
-  \author Peter Vaňo (xvano01)
+  \author Peter Vaňo (xvanop01)
 */
 
 using System;

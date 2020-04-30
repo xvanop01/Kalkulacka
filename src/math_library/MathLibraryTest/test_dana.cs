@@ -2,7 +2,7 @@
  * Project name: Calculator
  * File: test_dana.cs
  * Date: 19.3.2020
- * Author: Peter Vaňo xvano01(at)fit.vutbr.cz
+ * Author: Peter Vaňo xvanop01(at)fit.vutbr.cz
  * 
  * Brief: Tests for Math library
  * 
@@ -12,7 +12,7 @@
   \file test_dana.cs
 
   \brief Tests for Math library
-  \author Peter Vaňo (xvano01)
+  \author Peter Vaňo (xvanop01)
 */
 
 
