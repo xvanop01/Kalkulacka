@@ -16,20 +16,20 @@ pack: clean
 	make doc
 	xcopy /E ..\doc ..\..\calc\doc
 	powershell "Compress-Archive ..\..\calc ..\calculator.zip"
-	del ..\..\calc
+	del /S ..\..\calc
 
 clean:
-	del .\bin
-	del .\obj
-	del .\.vs
-	del .\math_library\.vs
-	del .\math_library\math_library\bin
-	del .\math_library\math_library\obj
-	del .\math_library\MathLibraryTest\bin
-	del .\math_library\MathLibraryTest\obj
-	del .\math_library\Profiler\bin
-	del .\math_library\Profiler\obj
-	del ..\doc
+	del /S .\bin
+	del /S .\obj
+	del /S .\.vs
+	del /S .\math_library\.vs
+	del /S .\math_library\math_library\bin
+	del /S .\math_library\math_library\obj
+	del /S .\math_library\MathLibraryTest\bin
+	del /S .\math_library\MathLibraryTest\obj
+	del /S .\math_library\Profiler\bin
+	del /S .\math_library\Profiler\obj
+	del /S ..\doc
 
 test:
 	cd math_library\MathLibraryTest && MathLibraryTest.csproj
