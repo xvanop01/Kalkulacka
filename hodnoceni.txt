@@ -1,0 +1,4 @@
+xjurke02 110 (zakladne funkcie, doxygen, dokumentacia pre uzivatela)
+xstefe11 85 (gui, mockup, napoveda)
+xsveck00 85 (makefile, instalacia/odistalacia)
+xvanop01 120 (pokrocile funkcie, testy, profiler) 
