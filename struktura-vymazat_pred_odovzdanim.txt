@@ -1,19 +1,19 @@
-mockup/
-  *.png|jpg|svg|pdf
+mockup/				DONE
+  *.png|jpg|svg|pdf		DONE
 plan/				DONE
 profiling/			DONE
   vystup.*			DONE
   zprava.txt|pdf		DONE
-src/
+src/				DONE
   zdrojový kód a testy		DONE
-  Makefile
-  Doxyfile
+  Makefile			DONE
+  Doxyfile			DONE
   zdrojový kód pro profiling	DONE
 debugging.png|jpg|pdf|txt	DONE
-dokumentace.pdf
-screenshot.png|jpg
-skutecnost.txt
-hodnoceni.txt
+dokumentace.pdf			DONE
+screenshot.png|jpg		DONE
+skutecnost.txt			DONE
+hodnoceni.txt			DONE
 README.md|txt			DONE
 .gitignore			DONE
 .editorconfig			DONE
