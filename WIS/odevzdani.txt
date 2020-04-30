@@ -1,0 +1,4 @@
+Odovzdané 30.04.2020 5:55
+Posledná verzia bola nahratá na server ivs.fit.vutbr.cz
+Pribežné zmeny a história projektu je dostupná cez konto ivskontrola na GitHub-e.
+Odovzdaný archív obsahuje všetky povinné súbory, podľa štruktúry adresára v zadaní projektu.
