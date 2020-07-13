@@ -30,7 +30,7 @@ namespace MathLibraryTest
         [TestMethod]
         public void TestPlus()
         {
-            Assert.AreEqual(5, OperationsSimple.Plus(2, 3));
+            Assert.AreEqual(6, OperationsSimple.Plus(2, 4));
             Assert.AreEqual(3.14 + 4.125, OperationsSimple.Plus(3.14, 4.125));
             Assert.AreEqual(-5, OperationsSimple.Plus(5, -10));
             Assert.AreEqual(0, OperationsSimple.Plus(0, 0));
